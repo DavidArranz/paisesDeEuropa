@@ -9,51 +9,73 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
+        <Button
+            android:id="@+id/buttonEspaña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="España"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="25sp" />
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingBottom="0dp"
+            android:text="España" />
 
-        <TextView
-            android:id="@+id/textView2"
+        <Button
+            android:id="@+id/buttonRusia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rusia"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="25sp" />
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingBottom="0dp"
+            android:text="Rusia" />
 
-        <TextView
-            android:id="@+id/textView3"
+        <Button
+            android:id="@+id/buttonPaisesBajos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Holanda"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="25sp" />
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingBottom="0dp"
+            android:text="Paises Bajos" />
 
-        <TextView
-            android:id="@+id/textView4"
+        <Button
+            android:id="@+id/buttonAlemania"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alemania"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="25sp" />
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingBottom="0dp"
+            android:text="Alemania" />
 
-        <TextView
-            android:id="@+id/textView5"
+        <Button
+            android:id="@+id/buttonInglaterra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Inglaterra"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="25sp" />
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="0dp"
+            android:text="Inglaterra" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

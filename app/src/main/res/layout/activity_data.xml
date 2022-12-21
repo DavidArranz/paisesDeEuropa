@@ -9,18 +9,11 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="120dp"
         android:text="Poblacion: "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
-        android:id="@+id/textViewPoblacion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
-        app:layout_constraintStart_toEndOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPais" />
 
     <TextView
         android:id="@+id/textView8"
@@ -31,6 +24,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
+        android:id="@+id/textViewPoblacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <TextView
         android:id="@+id/textViewSuperficie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,12 +38,13 @@
         app:layout_constraintStart_toEndOf="@+id/textView8" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="160dp"
+        android:id="@+id/imageViewPais"
+        android:layout_width="298dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/_8855462_un_mapa_abstracto_de_europa_con_el_pa_s_de_alemania_en_los_pa_ses_europeos_rojo_y_otros_en_blanco" />
 </androidx.constraintlayout.widget.ConstraintLayout>
