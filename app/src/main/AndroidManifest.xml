@@ -26,7 +26,23 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DataActivity"
+            android:name=".DatosActivity"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Add"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Edit"
             android:exported="true">
 
             <meta-data

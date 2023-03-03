@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Country"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Flag ID"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital"/>
+
+    <EditText
+        android:id="@+id/edit_text_population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Population"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_surface_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surface Area"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_continent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Continent"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+</LinearLayout>
